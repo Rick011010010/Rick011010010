@@ -1,0 +1,476 @@
+    body {
+        margin: 0px 0px 0px 0px;
+        
+    }
+    
+    header {
+        margin: 0px;
+        padding: 0px 445px 0px 445px;
+        width: 1905px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        box-sizing: border-box;
+        box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+        background-color: white;
+    }
+    
+    .right_section {
+        width: auto;
+        height: 69.88px;
+        box-shadow: grey;
+    }
+    
+    .right_section ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    .right_section ul li {
+        padding: 20px;
+    }
+    
+    .right_section ul li a {
+        text-decoration: none;
+        font-family: 'Roboto', Arial, sans-serif;
+        color: gray;
+    }
+    .right_section ul li a:hover{
+        color: #00b39b;
+    }
+    
+    
+    section {
+        display: grid;
+        justify-content: center;
+        padding: 100px 10px 10px 10px;
+        margin: 0px 132px 0px 132px;
+    }
+    
+    .content {
+        width: 1015px;
+        height: 308.594px;
+    }
+    
+    .logo {
+        width: auto;
+        height: 39px;
+    }
+    
+    .logo img {
+        display: block;
+        margin: 0px 467px;
+    }
+    
+    .headling h1 {
+        font-weight: 300;
+        font-family: 'Work Sans', Arial, sans-serif;
+        line-height: 1.3;
+        text-align: center;
+        font-size: 34px;
+        color: #00b39b;
+        width: 975px;
+        height: 44px;
+    }
+    
+    .paragraph {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .paragraph p {
+        width: 379.5px;
+        height: 140px;
+        font-family: 'Roboto', Arial, sans-serif;
+        color: #747474;
+        -webkit-font-smoothing: antialiased;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .patients .doctors .clinics {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 132px 0px 132px;
+        padding: 10px;
+    }
+    
+    .tickets {
+        margin-top: 50px;
+        width: 1015px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .patients {
+        padding: 32px 32px 0px 32px;
+        border-radius: 10px;
+        width: 241.97px;
+        height: 345px;
+        background-color: #58D2B8;
+    }
+    
+    .doctors {
+        padding: 32px 32px 0px 32px;
+        border-radius: 10px;
+        width: 241.97px;
+        height: 345px;
+        background-color: #508FE2;
+    }
+    
+    .clinics {
+        padding: 32px 32px 0px 32px;
+        border-radius: 10px;
+        width: 241.97px;
+        height: 345px;
+        background-color: #323C48;
+    }
+    
+    .patients h1 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin: .3em 0;
+    }
+    
+    .doctors h1 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin: .3em 0;
+    }
+    
+    .clinics h1 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin: .3em 0;
+    }
+    
+    .patients h2 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+        color: #fff;
+    }
+    
+    .doctors h2 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+        color: #fff;
+    }
+    
+    .clinics h2 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+        color: #fff;
+    }
+    
+    .patients select {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 19.2px;
+        text-decoration: underline solid rgb(255, 255, 255);
+        background-color: #58D2B8;
+        position: absolute;
+        margin-top: 100px;
+        color: #fff;
+        border: none;
+    }
+    
+    .doctors select {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 19.2px;
+        text-decoration: underline solid rgb(255, 255, 255);
+        position: absolute;
+        margin-top: 100px;
+        background-color: #508FE2;
+        color: #fff;
+        border: none;
+    }
+    
+    .clinics select {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 19.2px;
+        text-decoration: underline solid rgb(255, 255, 255);
+        position: absolute;
+        margin-top: 80px;
+        background-color: #323C48;
+        color: #fff;
+        border: none;
+    }
+    
+    .bare-middle {
+        margin-top: 40px;
+        width: 1015px;
+        height: 114.59px;
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .bare-middle ul {
+        display: flex;
+        justify-content: space-around;
+        width: 653.25px;
+        height: 108px;
+        list-style-type: none
+    }
+    
+    .bare-middle ul li {
+        width: 140px;
+        height: 45px;
+        padding: 5px 0px 5px 5px;
+    }
+    
+    .bare-middle ul li a {
+        padding: 5px 10px;
+        width: 135px;
+        height: 35px
+    }
+    
+    .bare-middle h1 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        color: #00b39b;
+    }
+    
+    .main-section {
+        width: 1279px;
+        height: 600px;
+        background-color: #51ccc0;
+        background-image: linear-gradient( -45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+        overflow: hidden;
+    }
+    
+    .main-content {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        box-sizing: inherit;
+        background-color: #D4F4F5;
+        width: 1905px;
+        height: 650px;
+        margin: 0px 300px 0px 0px;
+        background-image: linear-gradient( -45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+        border-bottom: hidden;
+        box-sizing: border-box;
+    }
+    
+    .main-paragraph {
+        width: 497.5px;
+        height: 200.781px;
+        margin-top: 50px;
+        font-size: 2.125rem;
+        color: #00b39b;
+        width: 447.5px;
+        height: 88px;
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -.3px;
+        background-color: red;
+    }
+    
+    .H1 {
+        font-size: 34px;
+        color: #00b39b;
+        width: 447.5px;
+        height: 88px;
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -.3px;
+    }
+    
+    .P1 {
+        font-family: 'Roboto', Arial, sans-serif;
+        color: #747474;
+    }
+    
+    .main-paragraph p {
+        width: 415px;
+        height: 48px;
+    }
+    
+    .main-tickets {
+        
+        margin-right: 200px;
+        margin-left: -250px;
+        margin-top: 50px;
+        justify-content: space-around;
+        width: 497.5px;
+        height: 560px;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: inherit;
+        
+    }
+    
+    .H3 {
+        font-family: 'Work Sans', Arial, sans-serif;
+        color: #00b39b;
+        text-align: center;
+    }
+    
+    .P3 {
+        font-family: 'Roboto', Arial, sans-serif;
+        color: #747474;
+        text-align: center;
+    }
+    
+    .cities {
+        height: 1349px;
+        width: 1015px;
+        margin: 88px 445px 80px 445px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .para-head {
+        height: 172.391px;
+        width: 460px;
+        max-width: 460px;
+        margin: 0px 258px 67px 258px;
+    }
+    
+    .para-head h1 {
+        color: #57D1D6;
+        height: 78px;
+        width: 460px;
+        text-align: center;
+        word-spacing: 0px;
+        font-family: 'Work Sans', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+    }
+    
+    .para-head p {
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        color: #747474;
+        text-align: center;
+    }
+    
+    .toph-city {
+        box-sizing: border-box;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: 1110px;
+        width: 995px;
+        margin: 0px -10px 0px -10px;
+        background-color: #fff;
+    }
+    
+    .border8 {
+        box-sizing: border-box;
+        height: 370.188px;
+        width: 331.625px;
+        background-color: #fff;
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+    
+    .Ateam {
+        overflow: hidden;
+        display: flex;
+        
+        box-sizing: border-box;
+        flex-direction: column;
+        height: 350.188px;
+        width: 311px;
+        max-width: 311px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        
+    }
+
+    .Ateam:hover{
+        box-shadow: 0 -2px 80px 0 rgb(0 0 0 / 15%);
+
+    }
+    
+    .png {
+        box-sizing: border-box;
+        display: table-column;
+    }
+    
+    .city-name {
+        box-sizing: border-box;
+        height: 70px;
+        width: 309px;
+        max-width: 100%;
+    }
+    
+    .buttons {
+        border: none;
+        float: right;
+        border-radius: 6px;
+        background-color: #1762C6;
+        color: aliceblue;
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    
+    .JOIN {
+        margin: 88px 145px;
+        height: 101.5px;
+        width: 1015px;
+        margin: 80px 445px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .JOIN h1 {
+        background-color: #4BB49C;
+        font-family: 'Work Sans', Arial, sans-serif;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+        line-height: 39px;
+    }
+    
+    .JOIN h3 button {
+        width: 210px;
+        height: 40px;
+        border: none;
+        font-family: 'Roboto', Arial, sans-serif;
+        border-radius: 5px;
+        background-color: #1762C6;
+        color: aliceblue;
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        height: 121.172px;
+        width: 1905px;
+        box-sizing: border-box;
+        padding: 16px 0px;
+        border-top: 1px solid rgb(233, 224, 224);
+    }
+    
+    .div-footer {
+        box-sizing: border-box;
+        height: 88.171px;
+        width: 1015px;
+        max-width: 1015px;
+        margin: 0px 132px;
+        padding: 0px 20px;
+    }
+    
